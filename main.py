@@ -72,7 +72,7 @@ def cell_to_symbol(cell):
         return TEXT_TO_SYMBOL[text]
 
 # game state loaded to dictionary
-def load_state(path='output/state.json'):
+def load_state(path):
     with open(path, "r") as state_file:
         game_state = json.loads(state_file.read())
         return game_state
