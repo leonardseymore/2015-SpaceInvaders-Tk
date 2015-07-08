@@ -18,6 +18,8 @@ when your bot made its move.
 
 ## To run
 
+Note this requires Python 2
+
 ```python main.py```
 
 ## Usage
